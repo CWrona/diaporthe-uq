@@ -1,0 +1,3 @@
+#ncbi's e-utilities to download reference isolates
+esearch -db nucleotide -query "KC343004:KC343211 [ACCN]" |
+efetch -format fasta > santosITS.fasta
